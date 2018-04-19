@@ -1,0 +1,73 @@
+
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.1;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Allura', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+table {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+  }
+  
+  #topMenu {
+    z-index: 1;
+    position: absolute;
+    top: 0.5;
+    left: 1;
+    width: 100%;
+    text-align: center;
+    background: #E7E7E7;
+    font-weight: bold;
+
+  }
+  
+  #topMenu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #topMenu a:hover {
+    color: #000;
+    background: rgb(245, 151, 151);
+    text-decoration: none;
+  }
+  
+  #topMenu a.selected {
+    color: #000;
+    background: rgb(245, 151, 151);
+    text-decoration: none;
+  }
+.sectionTitle {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    text-decoration: underline; 
+    font-weight: bold;
+}
+
+#today {
+    border: 5px solid gray;
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+}
+
+  section {
+      text-align: center
+  }

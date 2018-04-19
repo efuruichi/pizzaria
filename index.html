@@ -5,21 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best Pizza Ever</title>
+    <link href="https://fonts.googleapis.com/css?family=Allura|Poiret+One|Quattrocento+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+
+</style>
 </head>
 <body>
 <header id="intro">
     <div class="content">
+            <div class="my-container">
+            <img src="assets/pizzaMan.jpeg" alt="logo"/>
+            </div>
         <h1 id="name">Pizzaria La DevLeague</h1>
         <h2 id="tagline">Functional Pizza For All!</h2>
-        <img src="assets/pizzaMan.jpeg" alt="logo"/>
-        <nav id="topMenu">
-            <li class="guide"><a href ="#today">Today's Special</a></li>
-            <li class="guide"><a href="#menu">Menu</a></li>
-            <li class="guide"><a href="#subscribe">Subscribe</a></li>
-            <li class="guide"><a href="#visit">Visit</a></li>
-        </nav>
+
+<table cellpadding="10px" cellspacing="0px" id="topMenu">
+    <tr>
+        <td>
+            <a class="selected" href="#today">Today's Special</a>
+        </td>
+        <td>
+            <a href="#menu">Menu</a>
+        </td>
+        <td>
+            <a href="#subscribe">Subscribe</a>
+        </td>
+        <td>
+            <a href="#visit">Visit</a>
+        </td>
+    </tr>
+</table>
+
     </div>
 </header>
+</br>
+</br>
+</br>
 <section id="today">
         <div class="content">
             <h3 class="sectionTitle">Today's Special</h3>
@@ -56,6 +78,7 @@
             </div>
         </div>
     </section>
+</table>
     <section id="subscribe">
         <div class="content">
             <h3 class="sectionTitle">Subscribe</h3>
@@ -68,13 +91,13 @@
     <section id="visit">
         <div class="content">
             <h3 class="sectionTitle">Visit</h3>
-            <ul id="addy">
-                <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
-                <li id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</a></li>
-                <li class="hours">Monday - Saturday</li>
-                <li class="hours">12pm - 12am</li>
-                <li class="hours">Coding on Sundays</li>
-            </ul>
+            <p id="addy">
+                <p id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</p>
+                <p id="map"><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</a></li>
+                <p class="hours">Monday - Saturday</p>
+                <p class="hours">12pm - 12am</p>
+                <p class="hours">Coding on Sundays</p>
+            </p>
         </div>
     </section>
     <footer>
