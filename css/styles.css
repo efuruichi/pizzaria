@@ -1,8 +1,8 @@
 
-.my-container img {
+.background-image img {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 40%;
     width: 100%;
     height: auto;
     z-index: 1;
@@ -10,32 +10,39 @@
 }
 
 h1 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Vast Shadow', cursive;
     text-align: center;
     font-size: 60px;
+    color: black;
+    border: 5px solid coral;
+    background-color: coral;
+    text-decoration-line: overline;
+    padding: 50px;
 }
 
 h2 {
-    font-family: 'Allura', cursive;
+    font-family: 'Playfair Display', serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
+    font-style: oblique;
+    color: forestgreen;
 }
 
 table {
-    font-family: 'Allura', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
+    opacity: 0.7;
   }
   
   #topMenu {
     z-index: 1;
     position: absolute;
     top: 0.5;
-    left: 1;
+    left: 0;
     width: 100%;
     text-align: center;
-    background: #E7E7E7;
     font-weight: bold;
-
+    border-bottom: double;
   }
   
   #topMenu a {
@@ -46,28 +53,65 @@ table {
   
   #topMenu a:hover {
     color: #000;
-    background: rgb(245, 151, 151);
-    text-decoration: none;
+    background: rgb(255, 127, 80);
   }
   
   #topMenu a.selected {
     color: #000;
-    background: rgb(245, 151, 151);
-    text-decoration: none;
+    background: rgb(255, 127, 80);
   }
+
 .sectionTitle {
-    font-family: 'Poiret One', cursive;
-    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     text-decoration: underline; 
     font-weight: bold;
 }
 
-#today {
-    border: 5px solid gray;
-    background-color: lightgoldenrodyellow;
-    font-weight: bold;
+#special {
+    font-family: 'Vast Shadow', cursive;
+    color: forestgreen
+
 }
 
-  section {
+
+.pizzaName {
+    font-family: 'Vast Shadow', cursive;
+}
+
+.description {
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
+}
+
+.price {
+    font-family: 'Playfair Display', serif;
+}
+
+#today {
+    font-size: 40px;
+}
+
+section {
       text-align: center
   }
+
+#deal {
+    font-family: 'Playfair Display', serif;
+  }
+
+#addy {
+    font-family: 'Playfair Display', serif;
+}
+
+#credit {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#copyright {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
